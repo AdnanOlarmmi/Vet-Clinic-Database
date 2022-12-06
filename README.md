@@ -14,8 +14,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [📹 Video Description](#video-description)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -33,43 +31,25 @@
 
 # 📖 Climate App <a name="about-project"></a>
 
-**Climate App** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information.
+**Vet Clinic Database** is a relational database to create the initial data structure for a vet clinic. A table was created to store animals' information, insert some data into it, and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+<summary>Database</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://redux.js.org/">Redux and Redux Toolkit</a></li>
-    <li><a href="https://fonts.google.com/icons">Google Icons</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Country Air Pollution Info:** Display Respective country air pollution index and other informations.
-- **Filter by category:** The User can control the information displayed on the home page by choosing a specific category.
-- **More Details About Air Position:** Navigate to a Country details page to see more info.
-- **Navigating Back to the home page:** The user can use the top left button in the navigation bar to navigate back to the home page from the details page.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📹 Video Description <a name="video-description"></a>
-
-- [Watch me explaining some of the app features](https://www.loom.com/share/905964bd35b548d79425112a403cc198).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Experince a live demo](https://adnanclimateapp.netlify.app/).
-
-> |     | Mobile version                      | Desktop version                      |     |
-> | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![Screenshot1](./mobile.gif) | ![Screenshot2](./desktop.gif) |
+- **Create a Database.** 
+- **Create a Row in the Database.**
+- **Insert Data into the Table.**
+- **Query The Data.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,10 +60,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
-- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [PostgresSQL](https://www.postgresql.org/)
 - [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
@@ -91,44 +69,12 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AdnanOlarmmi/Climate-App.git
+  git clone https://github.com/AdnanOlarmmi/Vet-Clinic-Database.git
 ```
 
 - Navigate to the location of the folder in your machine:
 
-you@your-Pc-name:~$ cd Climate-App
-
-### Install
-
-To install all dependencies, run:
-
-```
-  npm install
-```
-
-### Usage
-
-After Cloning this repo to your local machine.
-To get it running on your default browser and local host, run:
-
-```
-  npm start
-```
-
-### Run tests
-
-To run tests, run:
-
-```
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using, Netlify:
-
-- I used Netlify to delpoy the project.
-- For more information, check [Netlify](https://www.netlify.com/) website.
+you@your-Pc-name:~$ cd Vet-Clinic-Database
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,7 +89,7 @@ You can deploy this project using, Netlify:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Enable Search Feature**
+- [ ] **Add More Data**
 - [ ] **Add deographical map for each country**
 - [ ] **Make the details more graphical(Like Barchart or Histogram)**
 
