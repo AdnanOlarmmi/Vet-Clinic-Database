@@ -90,7 +90,6 @@ you@your-Pc-name:~$ cd Vet-Clinic-Database
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add More Data**
-- [ ] **Add deographical map for each country**
 - [ ] **Make the details more graphical(Like Barchart or Histogram)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,10 +109,11 @@ If you like this project please give it a Start ⭐️.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank:
-- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website design system that inspired my design.
-- [OpenWeatherApi](https://openweathermap.org/) for the amazing API.
+- Project from [Microverse](https://www.microverse.org/) Ruby, Databases & Interviewing Module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,10 +123,10 @@ I would like to thank:
 
   - Yes, You can, feel free.
 
-- **Does the API respond always**
+- **Can I improve the repository, and my changes will be accepted if they are good?**
 
-  - Not really. Sometimes, there's excessive call to the API, this affects the API call by returning error 429. If such happens, you can check the console for confirmation.
-
+  - Yes please, nice ideas are welcome, please.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
