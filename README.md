@@ -1,48 +1,190 @@
-# curriculum-databases-projects-template
+<a name="readme-top"></a>
+<div align="center">
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [📹 Video Description](#video-description)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👤 Author](#author)
+- - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 
-## Getting Started
+# 📖 Climate App <a name="about-project"></a>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+**Climate App** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-## Authors
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux and Redux Toolkit</a></li>
+    <li><a href="https://fonts.google.com/icons">Google Icons</a></li>
+  </ul>
+</details>
 
-👤 **Author1**
+### Key Features <a name="key-features"></a>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- **Country Air Pollution Info:** Display Respective country air pollution index and other informations.
+- **Filter by category:** The User can control the information displayed on the home page by choosing a specific category.
+- **More Details About Air Position:** Navigate to a Country details page to see more info.
+- **Navigating Back to the home page:** The user can use the top left button in the navigation bar to navigate back to the home page from the details page.
 
-👤 **Author2**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 📹 Video Description <a name="video-description"></a>
 
-## 🤝 Contributing
+- [Watch me explaining some of the app features](https://www.loom.com/share/905964bd35b548d79425112a403cc198).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Experince a live demo](https://adnanclimateapp.netlify.app/).
+
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./mobile.gif) | ![Screenshot2](./desktop.gif) |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  git clone https://github.com/AdnanOlarmmi/Climate-App.git
+```
+
+- Navigate to the location of the folder in your machine:
+
+you@your-Pc-name:~$ cd Climate-App
+
+### Install
+
+To install all dependencies, run:
+
+```
+  npm install
+```
+
+### Usage
+
+After Cloning this repo to your local machine.
+To get it running on your default browser and local host, run:
+
+```
+  npm start
+```
+
+### Run tests
+
+To run tests, run:
+
+```
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using, Netlify:
+
+- I used Netlify to delpoy the project.
+- For more information, check [Netlify](https://www.netlify.com/) website.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Is-haq, Adnan Olamilekan**
+- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
+- Twitter: [@AdnanIshaqOla](https://twitter.com/@adnanishaqola)
+- LinkedIn: [Adnan (Olamilekan) Is-haq ](https://www.linkedin.com/in/adnan-is-haq-olamilekan/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Enable Search Feature**
+- [ ] **Add deographical map for each country**
+- [ ] **Make the details more graphical(Like Barchart or Histogram)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give it a Start ⭐️.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./MIT.md) licensed.
+I would like to thank:
+- [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website design system that inspired my design.
+- [OpenWeatherApi](https://openweathermap.org/) for the amazing API.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I Fork it and Imporove on it**
+
+  - Yes, You can, feel free.
+
+- **Does the API respond always**
+
+  - Not really. Sometimes, there's excessive call to the API, this affects the API call by returning error 429. If such happens, you can check the console for confirmation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./License) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
