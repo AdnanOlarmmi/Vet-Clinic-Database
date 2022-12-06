@@ -27,3 +27,13 @@ COMMIT;
 
 BEGIN TRANSACTION;
 DELETE FROM animals;
+ROLLBACK;
+SELECT * FROM animals;
+
+BEGIN TRANSACTION;
+DELETE animals WHERE date_of_birth > '2022/1/1';
+SAVEPOINT DLT_YNGST;
+UPDATE animals SET weight_kg =weight_kg * -1;
+ROLLBACK TO SAVEPOINT DLT_YNGST;
+UPDATE animals SET weight_kg =weight_kg * -1 WHERE SIGN(weight_kg)=-1;
+COMMIT;
