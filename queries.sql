@@ -37,3 +37,16 @@ UPDATE animals SET weight_kg =weight_kg * -1;
 ROLLBACK TO SAVEPOINT DLT_YNGST;
 UPDATE animals SET weight_kg =weight_kg * -1 WHERE SIGN(weight_kg)=-1;
 COMMIT;
+
+SELECT COUNT(*) FROM animals;
+SELECT COUNT(*) FROM animals WHERE escape_attempts = 0;
+SELECT AVG(weight_kg) FROM animals;
+SELECT MAX(weight_kg), MIN(weight_kg) FROM animals;
+SELECT SUM(escape_attempts) AS escape_attempts, neutered FROM animals GROUP BY neutered;
+
+
+
+/* Who escapes the most, neutered or not neutered animals? */
+
+
+
