@@ -1,48 +1,136 @@
-# curriculum-databases-projects-template
+<a name="readme-top"></a>
+<div align="center">
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👤 Author](#author)
+- - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 
-## Getting Started
+# 📖 Climate App <a name="about-project"></a>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+**Vet Clinic Database** is a relational database to create the initial data structure for a vet clinic. A table was created to store animals' information, insert some data into it, and query it.
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-## Authors
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-👤 **Author1**
+### Key Features <a name="key-features"></a>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- **Create a Database.** 
+- **Create a Row in the Database.**
+- **Insert Data into the Table.**
+- **Query The Data.**
 
-👤 **Author2**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
-## 🤝 Contributing
+### Prerequisites
+
+In order to run this project you need:
+
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [PostgresSQL](https://www.postgresql.org/)
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  git clone https://github.com/AdnanOlarmmi/Vet-Clinic-Database.git
+```
+
+- Navigate to the location of the folder in your machine:
+
+you@your-Pc-name:~$ cd Vet-Clinic-Database
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Is-haq, Adnan Olamilekan**
+- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
+- Twitter: [@AdnanIshaqOla](https://twitter.com/@adnanishaqola)
+- LinkedIn: [Adnan (Olamilekan) Is-haq ](https://www.linkedin.com/in/adnan-is-haq-olamilekan/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add More Data**
+- [ ] **Make the details more graphical(Like Barchart or Histogram)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give it a Start ⭐️.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- Project from [Microverse](https://www.microverse.org/) Ruby, Databases & Interviewing Module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I Fork it and Imporove on it**
+
+  - Yes, You can, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - Yes please, nice ideas are welcome, please.
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./License) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
