@@ -9,3 +9,8 @@ ALTER TABLE owners ADD PRIMARY KEY(id);
 CREATE TABLE species(id INT GENERATED ALWAYS AS IDENTITY, name VARCHAR);
 ALTER TABLE species ADD PRIMARY KEY(id);
 
+ALTER TABLE animals DROP species;
+
+ALTER TABLE animals ADD species_id INT REFERENCES species;
+
+ALTER TABLE animals ADD owner_id INT REFERENCES owners;
