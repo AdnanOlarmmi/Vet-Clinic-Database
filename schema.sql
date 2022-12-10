@@ -14,3 +14,32 @@ ALTER TABLE animals DROP species;
 ALTER TABLE animals ADD species_id INT REFERENCES species;
 
 ALTER TABLE animals ADD owner_id INT REFERENCES owners;
+
+
+--Create a table named vets:
+CREATE TABLE vets (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(50),
+    age INT,
+    date_of_graduation DATE,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE specializations (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    vets_id INT,
+    species_id INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY(vets_id) REFERENCES vets,
+    FOREIGN KEY(species_id) REFERENCES species
+);
+
+CREATE TABLE visits (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    animals_id INT,
+    vets_id INT,
+    date_of_visit DATE,
+    PRIMARY KEY(id),
+    FOREIGN KEY(animals_id) REFERENCES animals,
+    FOREIGN KEY(vets_id) REFERENCES vets
+);
