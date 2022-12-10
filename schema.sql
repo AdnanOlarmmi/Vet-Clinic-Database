@@ -19,21 +19,27 @@ ALTER TABLE animals ADD owner_id INT REFERENCES owners;
 --Create a table named vets:
 CREATE TABLE vets (
     id INT GENERATED ALWAYS AS IDENTITY,
-    name VARCHAR(150) NOT NULL,
-    age INT NOT NULL,
-    date_of_graduation DATE NOT NULL,
+    name VARCHAR(50),
+    age INT,
+    date_of_graduation DATE,
     PRIMARY KEY(id)
 );
 
 CREATE TABLE specializations (
-    species_id INTEGER REFERENCES species(id),
-    vet_id INTEGER REFERENCES vets(id),
-    PRIMARY KEY (species_id, vet_id)
+    id INT GENERATED ALWAYS AS IDENTITY,
+    vets_id INT,
+    species_id INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY(vets_id) REFERENCES vets,
+    FOREIGN KEY(species_id) REFERENCES species
 );
 
 CREATE TABLE visits (
-    animal_id INTEGER REFERENCES animals(id),
-    vet_id INTEGER REFERENCES vets(id),
-    visit_date date,
-    PRIMARY KEY (animal_id, vet_id)
+    id INT GENERATED ALWAYS AS IDENTITY,
+    animals_id INT,
+    vets_id INT,
+    date_of_visit DATE,
+    PRIMARY KEY(id),
+    FOREIGN KEY(animals_id) REFERENCES animals,
+    FOREIGN KEY(vets_id) REFERENCES vets
 );
